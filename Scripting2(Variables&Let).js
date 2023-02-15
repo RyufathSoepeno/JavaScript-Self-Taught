@@ -10,6 +10,14 @@ var z = x + y;
 
 document.write("<h3>" + code + " is " + x + " + " + y + "= " + z + "<br>");
 
+var name = "John";
+
+// embed a variable
+alert( `Hello, ${name}! <br>` ); // Hello, John!
+
+// embed an expression
+alert( `the result is ${1 + 2} <br>` ); // the result is 3
+
 
 
 /** 'let' are variables annot be Redeclared with block scope */
