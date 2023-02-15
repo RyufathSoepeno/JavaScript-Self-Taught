@@ -2,7 +2,7 @@
 var x = 5;
 
 var y;
-y = 6;
+y = 6.5;
 
 var code = "Delta";
 
@@ -13,10 +13,19 @@ document.write("<h3>" + code + " is " + x + " + " + y + "= " + z + "<br>");
 var name = "John";
 
 // embed a variable
-alert( `Hello, ${name}! <br>` ); // Hello, John!
+document.write( `Hello, ${name}! <br>` ); // Hello, John!
+// OR
+document.write( 'Hello, ' + name + '! <br>');
 
 // embed an expression
-alert( `the result is ${1 + 2} <br>` ); // the result is 3
+document.write( `the result is ${1 + 2} <br>` ); // the result is 3
+
+/** Boolean */
+let nameFieldChecked = true; // yes, name field is checked
+let ageFieldChecked = false; // no, age field is not checked
+
+let isGreater = 4 > 1;
+document.write( isGreater ); // true (the comparison result is "yes")
 
 
 
